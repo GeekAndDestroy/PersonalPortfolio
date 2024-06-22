@@ -10,6 +10,7 @@ export default {
         "light",
         "dracula",
         "acid",
+        "halloween",
           {
               dark: {
                   primary: "#00ff00",
