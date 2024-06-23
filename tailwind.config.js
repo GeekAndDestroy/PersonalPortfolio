@@ -13,8 +13,8 @@ export default {
         "halloween",
           {
               dark: {
-                  primary: "#00ff00",
-                  secondary: "#E200E6",
+                  primary: "#E200E6",
+                  secondary: "#00ff00",
                   accent: "#ffff00",
                   neutral: "#E200E6",
                   "base-100": "#21325E",

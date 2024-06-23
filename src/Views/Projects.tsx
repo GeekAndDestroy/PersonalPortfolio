@@ -8,9 +8,15 @@ export default function Projects({}: ProjectsProps) {
             <div className="card lg:card-side bg-base-100 shadow-xl mt-8 w-11/12 self-center">
                 <figure>
                     <img
+                        src="../../src/assets/images/projects/luckypaws/1717421535582.jpg"
+                        alt="Lucky Paws"
+                        // width={80%} height={250}
+                        style={{height:300}}
+                    />
+                    {/* <img
                         src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
                         alt="Album"
-                    />
+                    /> */}
                 </figure>
                 <div className="card-body w-2/3">
                     <h2 className="card-title">Lucky Paws Client Portal</h2>

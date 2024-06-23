@@ -1,12 +1,10 @@
-import Headshot from "../Components/Headshot"
 import { useState, useEffect } from "react";
 
-type HomeProps = {}
+type Props = {};
 
-export default function Home({}: HomeProps) {
-
-      // Define the array of image URLs
-      const images: string[] = [
+export default function Headshot({}: Props) {
+    // Define the array of image URLs
+    const images: string[] = [
         "../../src/assets/images/headshot/headshot01.jpg",
         "../../src/assets/images/headshot/headshot02.jpg",
         "../../src/assets/images/headshot/headshot03.jpg",
@@ -23,7 +21,6 @@ export default function Home({}: HomeProps) {
         "../../src/assets/images/headshot/headshot14.jpg",
         "../../src/assets/images/headshot/headshot15.jpg",
         "../../src/assets/images/headshot/headshot16.jpg",
-        "../../src/assets/images/headshot/headshot17.jpg",
         "../../src/assets/images/headshot/headshot18.jpg",
         "../../src/assets/images/headshot/headshot19.jpg",
         "../../src/assets/images/headshot/headshot20.jpg",
@@ -31,10 +28,8 @@ export default function Home({}: HomeProps) {
         "../../src/assets/images/headshot/headshot22.jpg",
         "../../src/assets/images/headshot/headshot23.jpg",
         "../../src/assets/images/headshot/headshot24.jpg",
-        "../../src/assets/images/headshot/headshot25.jpg",
         "../../src/assets/images/headshot/headshot26.jpg",
         "../../src/assets/images/headshot/headshot27.jpg",
-        "../../src/assets/images/headshot/headshot28.jpg",
         "../../src/assets/images/headshot/headshot29.jpg",
         "../../src/assets/images/headshot/headshot30.jpg",
     ];
@@ -53,20 +48,7 @@ export default function Home({}: HomeProps) {
         choosePic();
     }, []);
 
-
-  return (
-    <div className="hero min-h-dvh bg-base-200">
-  <div className="hero-content flex-col lg:flex-row ">
-    {/* <img src="../../src/assets/images/headshot/headshot01.jpg" className="max-w-sm rounded-lg shadow-2xl" /> */}
-    {/* <div className="size-fit"><Headshot /></div> */}
-    <img id="myPicture" src={currentImage} style={{height:576, width:384}} alt="Random Headshot" />
-    <div className="ml-6">
-      <h1 className="text-5xl font-bold">WELCOME!</h1>
-      <p className="py-6">Jeff Chebul is a full stack engineer with a knack for front end development, enjoying the challenge of turning design ideas into smooth user experiences. Jeff excels at solving problems, managing multiple projects, and building strong client relationships. He is also passionate about animal welfare and mental health advocacy. Quick to learn new languages and technologies, Jeff consistently aims to deliver innovative solutions.</p>
-      {/* <p className="py-6">Hi, I'm Jeff Chebul! As a full stack engineer with a knack for front end development, I enjoy turning design ideas into smooth user experiences. I excel at solving problems, managing multiple projects, and building great client relationships. I’m also passionate about animal welfare and mental health advocacy. I’m quick to learn new languages and tech, always aiming to deliver innovative solutions.</p> */}
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-  )
+    return (
+    <img id="myPicture" src={currentImage}  alt="Random Headshot" />
+    );
 }

@@ -12,7 +12,7 @@ export default function Navigation({}: Props) {
   }, [])
 
   return (
-    <div className="navbar bg-base-100 w-full sticky top-0 z-50 h-7">
+    <div className="navbar bg-base-100 w-full sticky top-0 z-50 h-7 drop-shadow-xl">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -28,8 +28,9 @@ export default function Navigation({}: Props) {
   </div>
   <div className="navbar-center">
     {/* <a className="btn btn-ghost text-xl">Jeff Chebul | Full Stack Engineer</a> */}
-    <svg width="300" height="80" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  x="10px" y="0px"
-	 viewBox="280 500 1440 395" className="fill-current drop-shadow-sm relative top-3.5">
+    
+    <svg width="350" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  x="10px" y="0px"
+	 viewBox="280 500 1440 395" className="fill-current relative top-5">
 <g>
 	<path d="M587.21,894.96c-1.33,0-2.56-0.45-3.7-1.35c-1.14-0.9-1.84-2.26-2.08-4.06c-1.56-26.83-10.65-49.53-27.25-68.11
 		c-16.6-18.59-37.68-33.62-63.24-45.11c-25.56-11.49-52.72-20-81.47-25.53c-28.75-5.53-56.12-8.66-82.1-9.38l-41.14,0.54
@@ -193,20 +194,21 @@ export default function Navigation({}: Props) {
 	</g>
 </g>
 </svg>
+
   </div>
   <div className="navbar-end">
-  {/* <label className="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52" data-key="" htmlFor="myGuest_theme">Theme
-                                    <select data-choose-theme className='dropdown dropdown-end' id="myGuest_theme">
-                                        <option value="dark">Dark</option>
-                                        <option value="lofi">LoFi</option>
-                                        <option value="black">Black</option>
-                                        <option value="mytheme">myGuest</option>
-                                        <option value="halloween">Halloween</option>
-                                        <option value="synthwave">Synthwave</option>
-                                    </select>
-                                </label> */}
-                                {/* 'text-accent dropdown dropdown-end' */}
-  <div className="dropdown mr-28">
+  {/* <label className="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52" data-key="" htmlFor="theme">Theme: */}
+      <select data-choose-theme className='dropdown dropdown-end dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-30' id="theme">
+          <option value="dark">Dark</option>
+          <option value="dracula">Dracula</option>
+          <option value="halloween">Halloween</option>
+          <option value="light">Light</option>
+          <option value="cyberpunk">Cyberpunk</option>
+          <option value="acid">Acid</option>
+      </select>
+  {/* </label> */}
+  {/* 'text-accent dropdown dropdown-end' */}
+  {/* <div className="dropdown mr-28">
   <div tabIndex={0} role="button" className="btn m-1">
     Theme
     <svg width="12px" height="12px" className="h-2 w-2 fill-current opacity-60 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
@@ -220,7 +222,7 @@ export default function Navigation({}: Props) {
     <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cyberpunk" value="cyberpunk"/></li>
     <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Acid" value="acid"/></li>
   </ul>
-</div>
+</div> */}
   </div>
 </div>
   )
