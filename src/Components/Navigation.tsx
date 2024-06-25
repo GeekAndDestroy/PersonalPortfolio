@@ -199,7 +199,7 @@ export default function Navigation({}: Props) {
   </div>
   <div className="navbar-end">
   {/* <label className="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52" data-key="" htmlFor="theme">Theme: */}
-      <select data-choose-theme className='dropdown dropdown-end dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-30' id="theme">
+      <select data-choose-theme className='appearance-none dropdown dropdown-end dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-30' id="theme">
           <option value="dark">Dark</option>
           <option value="dracula">Dracula</option>
           <option value="halloween">Halloween</option>
