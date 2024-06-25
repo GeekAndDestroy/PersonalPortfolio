@@ -29,7 +29,7 @@ export default function Navigation({}: Props) {
   <div className="navbar-center">
     {/* <a className="btn btn-ghost text-xl">Jeff Chebul | Full Stack Engineer</a> */}
     
-    <svg width="350" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  x="10px" y="0px"
+    <svg width="350" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
 	 viewBox="280 500 1440 395" className="fill-current relative top-5">
 <g>
 	<path d="M587.21,894.96c-1.33,0-2.56-0.45-3.7-1.35c-1.14-0.9-1.84-2.26-2.08-4.06c-1.56-26.83-10.65-49.53-27.25-68.11
