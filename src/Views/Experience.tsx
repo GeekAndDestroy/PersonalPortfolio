@@ -7,7 +7,7 @@ export default function Experience({}: ExperienceProps) {
         <div className="flex py-8">
             <div className="justify-center w-2/3 mx-auto">
                 <div className="divider divider-primary w-10/12 mx-auto mt-20 mb-12">
-                    Experience
+                    <h1 className="text-3xl font-extrabold">Experience</h1>
                 </div>
 
                 <div className="card bg-neutral text-neutral-content object-center">
@@ -117,7 +117,7 @@ enhancing user experience and engagement on digital platforms.</li>
                 </div>
 
                 <div className="divider divider-primary w-10/12 mx-auto mt-12 mb-12">
-                    Skills
+                <h1 className="text-3xl font-extrabold">Skills</h1>
                 </div>
 
                 <div className="card bg-neutral">
@@ -442,7 +442,7 @@ enhancing user experience and engagement on digital platforms.</li>
                 </div>
 
                 <div className="divider divider-primary w-10/12 mx-auto mt-12 mb-12">
-                    Education
+                <h1 className="text-3xl font-extrabold">Education</h1>
                 </div>
 
                 <div className="card bg-neutral text-neutral-content">
