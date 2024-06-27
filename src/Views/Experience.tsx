@@ -12,7 +12,107 @@ export default function Experience({}: ExperienceProps) {
 
                 <div className="card bg-neutral text-neutral-content object-center">
                     <div className="card-body items-center text-center">
-                        <div className="grid"></div>
+                        <div className="w-full mb-12">
+                            <div className="flex w-full">
+                                <h1 className="text-start font-black text-xl">Software Developer,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2 underline underline-offset-4"><a href="https://www.joincolab.io/" target="_blank">Co.Lab </a></h1>
+                                <h1 className="text-right text-xl grow">06/2024 – present</h1>
+                            </div>
+                            <div className="divider"></div>
+                            <div>
+                                <ul className="list-disc list-outside pl-4 text-left ">
+                                    <li>Collaborate with a team of product managers, designers, and developers to
+develop a real-world product.</li>
+                                    <li>Engage in hands-on, project-based learning to enhance technical and
+teamwork abilities.</li>
+                                    <li>Contribute to all phases of the software development lifecycle, from concept
+to deployment.</li>
+                                    <li> Network with industry professionals and gained valuable insights into product
+development.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="w-full mb-12">
+                            <div className="flex w-full">
+                                <h1 className="text-start font-black text-xl">Software Engineer Trainee,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2 underline underline-offset-4"><a href="https://www.codingtemple.com/" target="_blank">Coding Temple</a></h1>
+                                <h1 className="text-right text-xl grow">02/2024 – 04/2024</h1>
+                            </div>
+                            <div className="divider"></div>
+                            <div>
+                                <ul className="list-disc list-outside pl-4 text-left">
+                                    <li>Developed responsive web applications using HTML, CSS, and JavaScript to
+enhance user experience and interface functionality.</li>
+                                    <li>Leveraged Python and Flask to create RESTful APIs for seamless</li>
+                                    <li>Employed React and TypeScript to develop dynamic user interfaces,
+enhancing interactivity and user engagement.</li>
+                                    <li>Applied object-oriented principles in Python and JavaScript to design
+scalable and maintainable code structures, enhancing code readability and
+modularity.</li>
+                                    <li>Demonstrated adaptability by quickly learning new technologies and
+frameworks, facilitating the adoption of emerging best practices.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="w-full mb-12">
+                            <div className="flex w-full">
+                                <h1 className="text-start font-black text-xl">Co-Owner,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2 underline underline-offset-4"><a href="https://www.luckypawstn.com/" target="_blank">Lucky Paws Tennessee</a></h1>
+                                <h1 className="text-right text-xl grow">02/2023 – present</h1>
+                            </div>
+                            <div className="divider"></div>
+                            <div>
+                                <ul className="list-disc list-outside pl-4 text-left">
+                                    <li>Demonstrated strong organizational skills by managing daily operations and
+overseeing the "board & train" program, coordinating with the training team.</li>
+                                    <li>Implemented marketing strategies to attract new clients, demonstrating
+creativity and an understanding of customer needs.</li>
+                                    <li>Ensured the comfort and well-being of all canine guests, showing attention to
+detail and a commitment to quality.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="w-full mb-12">
+                            <div className="flex w-full">
+                                <h1 className="text-start font-black text-xl">Owner,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2">Ranger's Squadron</h1>
+                                <h1 className="text-right text-xl grow">10/2012 – 02/2023</h1>
+                            </div>
+                            <div className="divider"></div>
+                            <div>
+                                <ul className="list-disc list-outside pl-4 text-left">
+                                    <li>Honed organizational skills through managing scheduling, bookings, and
+client communications in a fast-paced dog walking and boarding business.</li>
+                                    <li>Developed strong customer service and interpersonal skills through client
+interactions, resolving issues, and maintaining positive relationships.</li>
+                                    <li>Demonstrated problem-solving and critical thinking by resolving logistical
+challenges and addressing client concerns promptly and effectively.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="w-full mb-12">
+                            <div className="flex w-full">
+                                <h1 className="text-start font-black text-xl">Video Editor,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2">bieMEDIA</h1>
+                                <h1 className="text-right text-xl grow">09/2005 – 01/2009</h1>
+                            </div>
+                            <div className="divider"></div>
+                            <div>
+                                <ul className="list-disc list-outside pl-4 text-left">
+                                    <li>Spearheaded integration of online video content for employment and retail
+advertisement in collaboration with newspaper groups and directory services.</li>
+                                    <li>Facilitated seamless cooperation among cross-functional teams including
+account managers, scriptwriters, and voice over talent to ensure the delivery
+of customized video content meeting customer requirements.</li>
+                                    <li>Employed technical expertise to optimize video content delivery mechanisms,
+enhancing user experience and engagement on digital platforms.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -347,9 +447,26 @@ export default function Experience({}: ExperienceProps) {
 
                 <div className="card bg-neutral text-neutral-content">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">Cookies!</h2>
-                        <p>We are using cookies for no reason.</p>
-                        <div className="card-actions justify-end"></div>
+                    <div className="w-full">
+                            <div className="flex w-full mb-4">
+                                <h1 className="text-start font-black text-xl">Software Engineering,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2">Coding Temple</h1>
+                                <h1 className="text-right text-xl grow">Certificate</h1>
+                            </div>
+                            
+                            <div className="flex w-full mb-4">
+                                <h1 className="text-start font-black text-xl">Art Direction,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2">Miami Ad School</h1>
+                                <h1 className="text-right text-xl grow">Certificate</h1>
+                            </div>
+                            
+                            <div className="flex w-full">
+                                <h1 className="text-start font-black text-xl">Digital Media Production,{" "}</h1>
+                                <h1 className="text-start text-xl ml-2">The Art Institute of Colorado</h1>
+                                <h1 className="text-right text-xl grow">B.A.</h1>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
                 <div className="flex my-8 justify-end">
