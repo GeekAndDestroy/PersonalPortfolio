@@ -120,10 +120,10 @@ enhancing user experience and engagement on digital platforms.</li>
                     Skills
                 </div>
 
-                <div className="card bg-neutral ">
+                <div className="card bg-neutral">
                     {/* <div className="card-body items-center text-center"> */}
                     <div className="grid grid-cols-2 md:grid-cols-4 place-content-center text-center">
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 width="150"
                                 height="150"
@@ -151,7 +151,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             </svg>
                             <h1 className="mt-2 font-bold ">HTML5</h1>
                         </div>
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 fill="none"
                                 height="150"
@@ -175,7 +175,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">CSS3</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 width="150px"
                                 height="150px"
@@ -219,7 +219,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">PYTHON</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="150"
@@ -235,7 +235,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">JAVASCRIPT</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 id="Layer_1"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">TYPESCRIPT</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 viewBox="32.18585611720149 20.47 223.6851360941233 247.05999999999997"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -279,7 +279,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">C LANGUAGE</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 width="150"
                                 height="150"
@@ -299,7 +299,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">BOOTSTRAP</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 height="150"
                                 viewBox=".15 .13 799.7 479.69"
@@ -314,7 +314,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">TAILWIND CSS</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 width="150"
                                 height="150"
@@ -328,7 +328,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">FLASK</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 aria-hidden="true"
@@ -346,7 +346,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">REACT</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 height="150"
                                 viewBox="3.58301931 1.90851839 24.83198069 28.09192829"
@@ -361,7 +361,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">NODE.JS</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 width="150"
                                 height="150"
@@ -386,7 +386,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">POSTGRESQL</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 width="150"
                                 height="150"
@@ -402,7 +402,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">GIT</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="150"
@@ -424,7 +424,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <h1 className="mt-2 font-bold">CREATIVE SUITE</h1>
                         </div>
 
-                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4">
+                        <div className="flex flex-wrap justify-center rounded-3xl bg-base-100 m-8 p-4 glass">
                             <svg
                                 height="150"
                                 width="150"
