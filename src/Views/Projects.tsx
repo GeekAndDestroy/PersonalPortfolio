@@ -6,7 +6,7 @@ export default function Projects({}: ProjectsProps) {
     return (
         <div className="flex flex-col space-y-16 py-8">
             <div className="card lg:card-side bg-base-100 shadow-xl mt-8 w-11/12 self-center">
-                <figure className="min-w-1/3">
+                <figure className="min-w-min">
                     {/* <img
                         src="../../src/assets/images/projects/luckypaws/1717421535582.jpg"
                         alt="Lucky Paws"
@@ -88,46 +88,81 @@ export default function Projects({}: ProjectsProps) {
                         </div>
                     </div> */}
                     <div className="carousel carousel-center">
-                        <div className="carousel-item">
+                        <div className="carousel-item p-2">
                             <img
-                                src="../assets/images/projects/luckypaws/1717421535582.jpg"
+                                src="../assets/images/projects/luckypaws/logo.png"
                                 alt="Logo"
+                                style={{height:550}}
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-                                alt="Burger"
+                                src="../assets/images/projects/luckypaws/login.png"
+                                alt="Login Page"
+                                style={{height:550}}
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-                                alt="Burger"
+                                src="../assets/images/projects/luckypaws/home.png"
+                                alt="Home Page"
+                                style={{height:550}}
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-                                alt="Burger"
+                                src="../assets/images/projects/luckypaws/profile.png"
+                                alt="Profile Page"
+                                style={{height:550}}
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-                                alt="Burger"
+                                src="../assets/images/projects/luckypaws/admin_client.png"
+                                alt="Admin Page - Clients"
+                                style={{height:550}}
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-                                alt="Burger"
+                                src="../assets/images/projects/luckypaws/admin_dogs.png"
+                                alt="Admin Page - Dogs"
+                                style={{height:550}}
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-                                alt="Burger"
+                                src="../assets/images/projects/luckypaws/client_information.png"
+                                alt="Client Information Page"
+                                style={{height:550}}
+                            />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="../assets/images/projects/luckypaws/dog_information.png"
+                                alt="Dog Information Page"
+                                style={{height:550}}
+                            />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="../assets/images/projects/luckypaws/light_mode.png"
+                                alt="Light Mode"
+                                style={{height:550}}
+                            />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="../assets/images/projects/luckypaws/picture_view.png"
+                                alt="Picture View"
+                                style={{height:550}}
+                            />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="../assets/images/projects/luckypaws/update.png"
+                                alt="Update Page"
+                                style={{height:550}}
                             />
                         </div>
                     </div>
@@ -135,22 +170,20 @@ export default function Projects({}: ProjectsProps) {
                 <div className="card-body min-w-2/3">
                     <h2 className="card-title">Lucky Paws Client Portal</h2>
                     <p>
-                        This project involved developing a client portal for a
-                        dog boarding business using React with Typescript,
-                        Tailwind CSS, and DaisyUI components. The portal allows
-                        clients to manage their profiles and input detailed
-                        information about their dogs, such as feeding schedules,
-                        medical requirements, and emergency contacts. A
-                        PostgreSQL API was built using Flask and SQLAlchemy to
-                        handle CRUD operations for client and dog data,
-                        including image uploads to Cloudinary. AI capabilities
-                        were leveraged for image enhancement and smart cropping
-                        to create a visually appealing gallery showcasing each
-                        dog's stay. The system enables business owners to send
-                        updates to clients directly through the portal.
+                        This project involved developing a client portal for a dog boarding business using React with Typescript, Tailwind CSS, and DaisyUI components. The portal allows clients to manage their profiles and input detailed information about their dogs, such as feeding schedules, medical requirements, and emergency contacts. A PostgreSQL API was built using Flask and SQLAlchemy to handle CRUD operations for client and dog data, including image uploads to Cloudinary. AI capabilities were leveraged for image enhancement and smart cropping to create a visually appealing gallery showcasing each dog's stay. The system enables business owners to send updates to clients directly through the portal.
                     </p>
+                    <ul>
+                    <li>Login:</li>
+                    <li>email: jmchebul@jmchebul.com</li>
+                    <li>password: abc123</li>
+                    </ul>
+                    <p>*database may need a few minutes to spin up if inactive</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">View Demo</button>
+                        <Link 
+                            to="https://luckypawscp.netlify.app/"
+                            target="_blank">
+                            <button className="btn btn-primary">View Demo</button>
+                        </Link>
                         <Link
                             to="https://github.com/GeekAndDestroy/LuckyPaws_ClientPortal"
                             target="_blank"
@@ -196,9 +229,9 @@ export default function Projects({}: ProjectsProps) {
                     />
                 </figure>
                 <div className="card-body w-2/3">
-                    <h2 className="card-title">Spoon Tracker</h2>
+                    <h2 className="card-title">Spork</h2>
                     <p>
-                        Spoon Tracker is a team project developed for Co.Lab,
+                        Spork is a team project developed for Co.Lab,
                         designed to assist individuals with chronic illnesses in
                         managing their daily energy expenditure. As the
                         front-end developer, I collaborated with a product
@@ -218,7 +251,12 @@ export default function Projects({}: ProjectsProps) {
                         empathy from those around them.
                     </p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">View App</button>
+                        <Link
+                            to="https://sporkapp.netlify.app"
+                            target="_blank"
+                        >
+                            <button className="btn btn-primary">View App</button>
+                        </Link>
                         <Link
                             to="https://github.com/GeekAndDestroy/SpoonTracker"
                             target="_blank"
@@ -239,7 +277,7 @@ export default function Projects({}: ProjectsProps) {
                     </div>
                 </div>
             </div>
-            <div className="card lg:card-side bg-base-100 shadow-xl w-11/12 self-center mb-36">
+            {/* <div className="card lg:card-side bg-base-100 shadow-xl w-11/12 self-center mb-36">
                 <figure>
                     <img
                         src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
@@ -253,7 +291,7 @@ export default function Projects({}: ProjectsProps) {
                         <button className="btn btn-primary">Listen</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
