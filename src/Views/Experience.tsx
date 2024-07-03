@@ -471,7 +471,7 @@ enhancing user experience and engagement on digital platforms.</li>
                 </div>
                 <div className="flex my-8 justify-end">
                     <Link
-                        to="../../src/assets/resume/Jeff-Chebul-Resume.pdf"
+                        to="../assets/resume/Jeff-Chebul-Resume.pdf"
                         target="_blank"
                     >
                         <button className="btn btn-primary">
