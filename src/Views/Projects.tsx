@@ -90,7 +90,7 @@ export default function Projects({}: ProjectsProps) {
                     <div className="carousel carousel-center">
                         <div className="carousel-item">
                             <img
-                                src="../../src/assets/images/projects/luckypaws/1717421535582.jpg"
+                                src="../assets/images/projects/luckypaws/1717421535582.jpg"
                                 alt="Logo"
                             />
                         </div>
