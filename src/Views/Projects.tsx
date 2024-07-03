@@ -229,26 +229,9 @@ export default function Projects({}: ProjectsProps) {
                     />
                 </figure>
                 <div className="card-body w-2/3">
-                    <h2 className="card-title">Spork</h2>
+                    <h2 className="card-title">Spork (work in progress)</h2>
                     <p>
-                        Spork is a team project developed for Co.Lab,
-                        designed to assist individuals with chronic illnesses in
-                        managing their daily energy expenditure. As the
-                        front-end developer, I collaborated with a product
-                        manager, designer, and back-end developers to build this
-                        web application. Spoon Tracker enables users to track
-                        their activities based on the{" "}
-                        <a
-                            href="https://en.wikipedia.org/wiki/Spoon_theory"
-                            target="_blank"
-                        >
-                            "spoon theory,"
-                        </a>{" "}
-                        predict their energy limits, and share insights through
-                        visually compelling reports. By providing a clear view
-                        of energy usage patterns, Spoon Tracker helps users make
-                        informed decisions and enhances understanding and
-                        empathy from those around them.
+                        Spork is a team project developed for Co.Lab, designed to assist individuals with chronic illnesses in managing their daily energy expenditure. As the front-end developer, I collaborated with a product manager, designer, and back-end developers to build this web application. Spoon Tracker enables users to track their activities based on the{" "} <a href="https://en.wikipedia.org/wiki/Spoon_theory" target="_blank"> "spoon theory,"</a>{" "} predict their energy limits, and share insights through visually compelling reports. By providing a clear view of energy usage patterns, Spoon Tracker helps users make informed decisions and enhances understanding and empathy from those around them.
                     </p>
                     <div className="card-actions justify-end">
                         <Link
