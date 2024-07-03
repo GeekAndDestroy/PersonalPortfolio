@@ -1,34 +1,35 @@
 import { useState, useEffect } from "react";
 
 
+
 type HomeProps = {}
 
 export default function Home({}: HomeProps) {
 
       // Define the array of image URLs
       const images: string[] = [
-        "../../src/assets/images/headshot/headshot01.jpg",
-        "../../src/assets/images/headshot/headshot03.jpg",
-        // "../../src/assets/images/headshot/headshot04.jpg",
-        "../../src/assets/images/headshot/headshot05.jpg",
-        "../../src/assets/images/headshot/headshot07.jpg",
-        "../../src/assets/images/headshot/headshot08.jpg",
-        // "../../src/assets/images/headshot/headshot09.jpg",
-        "../../src/assets/images/headshot/headshot10.jpg",
-        "../../src/assets/images/headshot/headshot12.jpg",
-        "../../src/assets/images/headshot/headshot13.jpg",
-        "../../src/assets/images/headshot/headshot14.jpg",
-        "../../src/assets/images/headshot/headshot15.jpg",
-        "../../src/assets/images/headshot/headshot16.jpg",
-        "../../src/assets/images/headshot/headshot18.jpg",
-        "../../src/assets/images/headshot/headshot19.jpg",
-        // "../../src/assets/images/headshot/headshot20.jpg",
-        // "../../src/assets/images/headshot/headshot21.jpg",
-        "../../src/assets/images/headshot/headshot22.jpg",
-        "../../src/assets/images/headshot/headshot25.jpg",
-        "../../src/assets/images/headshot/headshot26.jpg",
-        "../../src/assets/images/headshot/headshot27.jpg",
-        "../../src/assets/images/headshot/headshot30.jpg",
+        "../assets/images/headshot/headshot01.jpg",
+        "../assets/images/headshot/headshot03.jpg",
+        // "../assets/images/headshot/headshot04.jpg",
+        "../assets/images/headshot/headshot05.jpg",
+        "../assets/images/headshot/headshot07.jpg",
+        "../assets/images/headshot/headshot08.jpg",
+        // "../assets/images/headshot/headshot09.jpg",
+        "../assets/images/headshot/headshot10.jpg",
+        "../assets/images/headshot/headshot12.jpg",
+        "../assets/images/headshot/headshot13.jpg",
+        "../assets/images/headshot/headshot14.jpg",
+        "../assets/images/headshot/headshot15.jpg",
+        "../assets/images/headshot/headshot16.jpg",
+        "../assets/images/headshot/headshot18.jpg",
+        "../assets/images/headshot/headshot19.jpg",
+        // "../assets/images/headshot/headshot20.jpg",
+        // "../assets/images/headshot/headshot21.jpg",
+        "../assets/images/headshot/headshot22.jpg",
+        "../assets/images/headshot/headshot25.jpg",
+        "../assets/images/headshot/headshot26.jpg",
+        "../assets/images/headshot/headshot27.jpg",
+        "../assets/images/headshot/headshot30.jpg",
     ];
 
     // State to hold the currently selected image
@@ -49,7 +50,7 @@ export default function Home({}: HomeProps) {
   return (
     <div className="hero min-h-dvh bg-base-200">
   <div className="hero-content flex-col lg:flex-row ">
-    {/* <img src="../../src/assets/images/headshot/headshot01.jpg" className="max-w-sm rounded-lg shadow-2xl" /> */}
+    {/* <img src="../assets/images/headshot/headshot01.jpg" className="max-w-sm rounded-lg shadow-2xl" /> */}
     {/* <div className="size-fit"><Headshot /></div> */}
     
     <img id="myPicture" src={currentImage} style={{height:576, width:384}} alt="Random Headshot" />
