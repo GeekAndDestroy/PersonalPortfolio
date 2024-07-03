@@ -88,77 +88,77 @@ export default function Projects({}: ProjectsProps) {
                         </div>
                     </div> */}
                     <div className="carousel carousel-center">
-                        <div className="carousel-item p-2">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/logo.png"
                                 alt="Logo"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/login.png"
                                 alt="Login Page"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/home.png"
                                 alt="Home Page"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/profile.png"
                                 alt="Profile Page"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/admin_client.png"
                                 alt="Admin Page - Clients"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/admin_dogs.png"
                                 alt="Admin Page - Dogs"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/client_information.png"
                                 alt="Client Information Page"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/dog_information.png"
                                 alt="Dog Information Page"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/light_mode.png"
                                 alt="Light Mode"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/picture_view.png"
                                 alt="Picture View"
                                 style={{height:550}}
                             />
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item pr-1">
                             <img
                                 src="../assets/images/projects/luckypaws/update.png"
                                 alt="Update Page"
