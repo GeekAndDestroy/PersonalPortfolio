@@ -5,8 +5,8 @@ type ExperienceProps = {};
 export default function Experience({}: ExperienceProps) {
     return (
         <div className="flex py-8">
-            <div className="justify-center w-2/3 mx-auto">
-                <div className="divider divider-primary w-10/12 mx-auto mt-20 mb-12">
+            <div className="justify-center w-full sm:w-11/12 md:w-10/12 mx-auto">
+                <div className="divider divider-primary w-full md:w-10/12 mx-auto mt-20 mb-12">
                     <h1 className="text-3xl font-extrabold">Experience</h1>
                 </div>
 
@@ -116,7 +116,7 @@ enhancing user experience and engagement on digital platforms.</li>
                     </div>
                 </div>
 
-                <div className="divider divider-primary w-10/12 mx-auto mt-12 mb-12">
+                <div className="divider divider-primary w-full md:w-10/12 mx-auto mt-12 mb-12">
                 <h1 className="text-3xl font-extrabold">Skills</h1>
                 </div>
 
@@ -179,7 +179,7 @@ enhancing user experience and engagement on digital platforms.</li>
                             <svg
                                 width="150px"
                                 height="150px"
-                                viewBox="0 0 64 64"
+                                viewBox="15 15 35 35"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -441,7 +441,7 @@ enhancing user experience and engagement on digital platforms.</li>
                     </div>
                 </div>
 
-                <div className="divider divider-primary w-10/12 mx-auto mt-12 mb-12">
+                <div className="divider divider-primary w-full md:w-10/12 mx-auto mt-12 mb-12">
                 <h1 className="text-3xl font-extrabold">Education</h1>
                 </div>
 
