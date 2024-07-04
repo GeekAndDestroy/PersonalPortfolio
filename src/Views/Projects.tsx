@@ -221,8 +221,8 @@ export default function Projects({}: ProjectsProps) {
                     </div>
                 </div>
             </div>
-            <div className="card lg:card-side bg-base-100 shadow-xl w-11/12 self-center">
-                <figure>
+            <div className="card lg:card-side bg-base-100 shadow-xl mt-8 w-11/12 self-center">
+                <figure className="min-w-1/3">
                     <img
                         src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
                         alt="Album"
