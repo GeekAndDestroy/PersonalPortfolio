@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// import Spork from "../assets/images/projects/spork/Spork.svg";
 
 
 type ProjectsProps = {};
@@ -225,7 +226,7 @@ export default function Projects({}: ProjectsProps) {
             <div className="card lg:card-side bg-base-100 shadow-xl mt-8 w-11/12 self-center">
                 <figure className="min-w-1/3">
                     <img
-                        src="../src/assets/images/projects/spork/dashboard.jpg"
+                        src={"../assets/images/projects/spork/dashboard.jpg"}
                         alt="Album"
                     />
                 </figure>
